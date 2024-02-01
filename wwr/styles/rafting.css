@@ -1,0 +1,77 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700&family=Open+Sans:ital,wght@0,400;0,700&display=swap');
+
+
+:root {
+    --primary-color: #00ABE7;
+    --secondary-color: #2DC7FF;
+    --accent1-color: #EAD2AC;
+    --accent2-color: #EABA6B;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+p {
+    color: var(--accent1-color);
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+a {
+    color: var(--accent2-color);
+    text-decoration: none; 
+}
+
+
+footer a img {
+    border: none; 
+}
+
+
+body {
+    max-width: 1200px; 
+    margin: 0 auto;    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+    color: #fff; 
+}
+
+article {
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 102, 204, 0.7); 
+    padding: 20px;
+    width: 80%; 
+}
+
+
+article img {
+    float: right;
+    margin-left: 20px; 
+}
+
+
+
