@@ -116,3 +116,37 @@ article img {
     float: right;
     margin-left: 20px; 
 }
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid with minimum item width of 220px */
+    gap: 20px; /* Gap between grid items */
+    margin-top: 20px; /* Margin at the top */
+}
+
+.adventures h2 {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: center; /* Center align the heading */
+}
+
+.adventures figure {
+    border: thin #c0c0c0 solid; /* Add border around figures */
+    display: flex; /* Use flexbox layout */
+    flex-flow: column; /* Stack child elements vertically */
+    padding: 5px; /* Padding inside figures */
+    max-width: 220px; /* Maximum width of figures */
+    margin: auto; /* Center figures horizontally */
+}
+
+.adventures img {
+    max-width: 100%; /* Ensure images don't exceed figure width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.adventures figcaption {
+    background-color: #222; /* Dark background for captions */
+    color: #fff; /* White text color for captions */
+    font: italic smaller sans-serif; /* Font style for captions */
+    padding: 3px; /* Padding inside captions */
+    text-align: center; /* Center align the text */
+}
