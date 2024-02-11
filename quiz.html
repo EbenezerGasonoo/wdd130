@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML and CSS Quiz</title>
+<meta name="description" content="Ebenezer Gasonoo is building a quiz form">
+    <meta name="author" content="Ebenezer Gasonoo">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+
+<h1>HTML and CSS Quiz</h1>
+
+<form action="submit_quiz.php" method="post">
+  
+  <div>
+    <label for="q1">Please fill in the blank:</label>
+    <input type="text" id="q1" name="q1" required>
+  </div>
+  
+  <div>
+    <label for="q2">Write your short answer question:</label>
+    <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+  </div>
+  
+  <div>
+    <label for="q3">Please Select one:</label>
+    <select id="q3" name="q3" required>
+      <option value="" selected disabled>Choose One ...</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="html_css">HTML & CSS</option>
+    </select>
+  </div>
+  
+  <div>
+    <label for="q4">Integer answer:</label>
+    <input type="number" id="q4" name="q4" required>
+  </div>
+  
+  <button type="submit">Submit Quiz</button>
+</form>
+
+</body>
+</html>
