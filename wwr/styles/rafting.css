@@ -146,16 +146,27 @@ article img {
     text-align: center;
 }
 
-/* Contact Form Styles */
-.contact-form {
-    margin-top: 50px;
+/* Contact Container */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.contact-form h2 {
+/* Contact Info */
+.contact-info {
+    flex-basis: 45%;
+}
+
+/* Map Container */
+.map-container {
+     margin-top: 50px;
     text-align: center;
 }
 
-.contact-form form {
+/* Contact Form */
+.contact-form {
+    margin-top: 50px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -197,7 +208,7 @@ article img {
     background-color: var(--secondary-color);
 }
 
-
+/* Employee Gallery */
 .employee-gallery {
     text-align: center;
     margin-top: 50px;
