@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700&family=Open+Sans:ital,wght@0,400;0,700&display=swap');
 
 :root {
-    --primary-color: #00ABE7;
-    --secondary-color: #2DC7FF;
-    --accent1-color: #EAD2AC;
-    --accent2-color: #EABA6B;
+    --primary-color: #0077cc; 
+    --secondary-color: #00aaff; 
+    --accent1-color: #e0b973; 
+    --accent2-color: #ffcc33; 
 }
+
 
 header {
     margin: 1rem auto;
