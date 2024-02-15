@@ -194,7 +194,7 @@ article img {
     height: 150px;
 }
 
-.contact-form input[type="submit"] {
+.contact-form button[type="submit"] {
     background-color: var(--primary-color);
     color: #fff;
     border: none;
@@ -204,7 +204,7 @@ article img {
     font-size: 16px;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact-form button[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
 
