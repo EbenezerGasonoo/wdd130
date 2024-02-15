@@ -26,7 +26,7 @@ header .logo img {
 h1 {
     font-size: 2rem;
     font-family: 'Montserrat', Arial, sans-serif;
-    text-align: center; 
+    text-align: center; /* Centering the heading */
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
 
 .navigation li {
     display: inline;
-    margin-left: 20px; 
+    margin-left: 20px; /* Adding some space between navigation links */
 }
 
 .navigation a {
@@ -51,7 +51,7 @@ nav {
 
 .navigation a:hover {
     color: var(--secondary-color);
-    font-weight: bold; 
+    font-weight: bold; /* Making the link bold on hover */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,8 +69,28 @@ a {
     text-decoration: none;
 }
 
-footer a img {
-    border: none;
+footer {
+    display: flex;
+    justify-content: space-between; /* Align items to the right and left */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add some padding */
+}
+
+.footer-text {
+    text-align: left; /* Align the footer text to the left */
+}
+
+.social-icons {
+    display: flex; /* Make the social icons flex */
+}
+
+.social-icons a {
+    margin-left: 10px; /* Add some space between social icons */
+}
+
+.social-icons a img {
+    width: 32px; /* Adjust the width of social icons */
+    height: 32px; /* Adjust the height of social icons */
 }
 
 body {
@@ -146,27 +166,27 @@ article img {
     text-align: center;
 }
 
-
+/* Contact Container */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-
+/* Contact Info */
 .contact-info {
-    flex-basis: 100%; 
-    margin-bottom: 20px; 
+    flex-basis: 100%; /* Taking full width */
+    margin-bottom: 20px; /* Adding space at the bottom */
 }
 
-
+/* Map Container */
 .map-container {
-    flex-basis: 45%; 
+    flex-basis: 45%; /* Taking 45% width */
 }
 
-
+/* Contact Form */
 .contact-form {
-    flex-basis: 45%; 
+    flex-basis: 45%; /* Taking 45% width */
 }
 
 .contact-form label {
@@ -206,7 +226,7 @@ article img {
     background-color: var(--secondary-color);
 }
 
-
+/* Employee Gallery */
 .employee-gallery {
     text-align: center;
     margin-top: 50px;
@@ -226,7 +246,7 @@ article img {
 .profile {
     margin: 10px;
     padding: 20px;
-    border: 2px solid var(--primary-color); 
+    border: 2px solid var(--primary-color); /* Blue border */
     max-width: 220px;
     text-align: center;
 }
