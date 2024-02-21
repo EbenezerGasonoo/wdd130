@@ -265,3 +265,53 @@ article img {
     margin-top: 5px;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Trips Page Specific Styles */
+
+.trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.trip {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.trip h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.trip p {
+    color: #555;
+}
+
+.trip-info {
+    margin-top: auto;
+}
+
+.trip-info a {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.trip-info a:hover {
+    background-color: var(--secondary-color);
+}
