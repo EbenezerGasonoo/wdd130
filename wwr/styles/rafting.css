@@ -340,7 +340,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-/* Call to Action Section */
+
 .cta {
     text-align: center;
     padding: 50px 0;
@@ -354,7 +354,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* Grid Layout Section */
+
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
